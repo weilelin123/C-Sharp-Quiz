@@ -19,6 +19,8 @@ namespace Program
                 Console.WriteLine("Valid");
             else
                 Console.WriteLine("Invalid");
+
+            Console.ReadKey();
         }
     }
 }

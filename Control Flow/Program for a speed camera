@@ -33,6 +33,8 @@ namespace Program
                 else
                     Console.WriteLine("Demerit points: " + demeritPoints);
             }
+
+            Console.ReadKey();
         }
     }
 }

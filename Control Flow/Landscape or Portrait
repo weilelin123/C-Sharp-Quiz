@@ -20,6 +20,8 @@ namespace Program
 
             var orientation = width > height ? ImageOrientation.Landscape : ImageOrientation.Portrait;
             Console.WriteLine("Image orientation is " + orientation);
+
+            Console.ReadKey();
         }
 
         public enum ImageOrientation

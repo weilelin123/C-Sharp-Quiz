@@ -19,6 +19,8 @@ namespace Program
 
             var max = (number1 > number2) ? number1 : number2;
             Console.WriteLine("Max is " + max);
+
+            Console.ReadKey();
         }
     }
 }
