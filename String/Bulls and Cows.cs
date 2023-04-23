@@ -48,8 +48,8 @@ namespace MyApp
                 }
             }
 
-            Console.WriteLine($"{bulls}  digits in the guess that are in the correct position.");
-            Console.WriteLine($"{cows}  digits in the guess that are in your secret number but are located in the wrong position.");
+            Console.WriteLine(bulls + " digits in the guess that are in the correct position.");
+            Console.WriteLine(cows + " digits in the guess that are in your secret number but are located in the wrong position.");
             Console.ReadKey();
         }
 
